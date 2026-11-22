@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.login-body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background:
+        radial-gradient(circle at top left, #59320f, transparent 40%),
+        linear-gradient(135deg, #171717, #292929);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 440px;
+}
+
+.login-brand {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.brand-icon {
+    width: 65px;
+    height: 65px;
+    background: #f59e0b;
+    color: #1c1917;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0 auto 12px;
+    box-shadow: 0 5px 20px #f59e0b55;
+}
+
+.login-brand h1 {
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-bottom: 2px;
+}
+
+.login-brand p {
+    color: #fbbf24;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.brand-decoration {
+    font-size: 10px;
+    color: #b8b8b8;
+    letter-spacing: 2px;
+    margin-top: 12px;
+}
+
+.login-card {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 15px 45px #00000055;
+}
+
+.login-card h2 {
+    font-size: 27px;
+    font-weight: 800;
+    color: #222;
+}
+
+.login-card .form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.login-card .form-control {
+    padding: 12px 14px;
+    border-radius: 9px;
+    border: 1px solid #dedede;
+}
+
+.login-card .form-control:focus {
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 3px #f59e0b25;
+}
+
+.btn-login {
+    background: #f59e0b;
+    border: none;
+    padding: 13px;
+    border-radius: 9px;
+    color: #211607;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background: #d97706;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.login-footer {
+    text-align: center;
+    color: #888;
+    font-size: 11px;
+    margin-top: 25px;
+}
+
+@media (max-width: 480px) {
+    .login-card {
+        padding: 25px 20px;
+    }
+}
